@@ -15,7 +15,7 @@ movies = pd.DataFrame(movie_dict)
 
 # text processing
 tfv = TfidfVectorizer(min_df=3,max_features = None,strip_accents='unicode',analyzer='word',token_pattern=r'\w{1,}',ngram_range=(1,3),stop_words='english')
-matrix = tfv.fit_transform(movies['combined'])
+matrix = (tfv.fit_transform(movies['combined'])).astype(np.float32)
 
 # model building
 sig = sigmoid_kernel(matrix,matrix)
