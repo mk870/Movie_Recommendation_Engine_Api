@@ -48,7 +48,7 @@ After scraping the data I needed to clean the data so as to feed it to the model
 ### **Productionization**
 ***
 In this step, I built a flask API endpoint thats hosted on Heroku. I did the following:
-* Used react to build the frontend.
+* Used Reactjs to build the frontend.
 * Created a suggestion engine at the backend(Flask server) to suggest a movie to the user as they type each letter of a movie title, used axios to move data between client and backend
 * Used the axios package to move movie title entered by the client to the backend to be processed in the recommendation engine then back to the frontend
 * Utilized the TMDB API to fetch movie posters, budget, popularity, overview of the typed and recommended movies 
