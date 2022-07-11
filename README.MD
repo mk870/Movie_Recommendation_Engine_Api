@@ -18,7 +18,10 @@
 
 **For Web Framework Requirements**: pip install -r requirements.txt
 
-**APIs**: TMDB API
+**APIs**: TMDB API  
+### **Recommendation Api in action :**  
+
+<img src="https://i.ibb.co/9gz9zcN/Movie-Plus-1.png" alt="Movie-Plus-1" border="0">  
 
 ### **Web Scraping**
 ***
